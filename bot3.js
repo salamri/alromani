@@ -7,13 +7,13 @@ const getYoutubeID = require('get-youtube-id');
 const fetchVideoInfo = require('youtube-info');
 
 const yt_api_key = "AIzaSyDeoIH0u1e72AtfpwSKKOSy3IPp2UHzqi4";
-const prefix = '1s';
+const prefix = 'sh';
 client.on('ready', function() {
     console.log(`i am ready ${client.user.username}`);
 });
 
       client.on('ready', () => {
-              client.user.setActivity("1splay | .Fun", {type: 'LISTENING'});
+              client.user.setActivity("shplay | .Fun", {type: 'LISTENING'});
 
       });
 /*
